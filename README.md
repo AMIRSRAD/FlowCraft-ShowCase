@@ -109,3 +109,10 @@ Builds/                    # generated build outputs
 ## Compatibility note
 
 FlowCraft relies on FlowCore-compatible `.dig` and `NodeInfo.xml` behavior. If you change parser/schema behavior, treat it as a compatibility-impacting change and validate against sample files in `FlowCore/TestData/`.
+
+
+## Source Code
+
+This repository is intended for showcase and portfolio purposes only.
+
+The full source code remains private.
