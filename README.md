@@ -19,17 +19,33 @@ Website: https://amirsrad.ir
 - Expression/script editing with syntax assistance, function validation, autocomplete, and variable browsing.
 - Comment boxes, minimap, zoom, snap/grid, selection sets, and undo/redo.
 - Light and dark UI modes.
+- Docked, expandable workspaces for Search, Validation, Runtime, AI Flow, Diff / Compare, and Settings.
 - Development JSON project format beside production `.dig` / `.dml` compatibility in the private product.
 - AI Flow assistant for generating and modifying graph patches from natural language prompts.
 - React-style UI Designer for flow-linked screen nodes, including visual editing, assets, design tokens, templates, live preview, responsive mode, and React export.
 
 ## Screenshots
 
-<img width="1918" height="1031" alt="FlowCraft main editor" src="https://github.com/user-attachments/assets/1145a8f7-ab65-4d13-849f-d9d7d691f827" />
-<img width="821" height="552" alt="FlowCraft editor panel" src="https://github.com/user-attachments/assets/ce8e4bb8-c92f-40d1-ac44-fc07b2b43397" />
-<img width="1223" height="779" alt="FlowCraft graph view" src="https://github.com/user-attachments/assets/53f3277e-99bf-4197-996a-bde6e8cd286a" />
-<img width="1481" height="890" alt="FlowCraft tooling" src="https://github.com/user-attachments/assets/46566e49-d35d-414e-8560-0036c6ab8da4" />
-<img width="1022" height="669" alt="FlowCraft workflow" src="https://github.com/user-attachments/assets/db8e560d-7b67-474f-b9b7-5c0afd04d299" />
+These screenshots show the FlowCraft desktop application running a synthetic
+sample flow; no customer project data is included.
+
+![FlowCraft desktop editor with its node library, canvas, properties inspector, minimap, and workspace panels](assets/flowcraft-editor-sample.png)
+
+Search across node names, fields, scripts, and variables without leaving the canvas.
+
+![Search workspace showing matches in the sample flow](assets/flowcraft-search.png)
+
+Write expressions and scripts with syntax highlighting and validation.
+
+![Script editor showing the sample request preparation](assets/flowcraft-script-editor.png)
+
+Review validation results beside the graph.
+
+![Validation workspace alongside the sample flow](assets/flowcraft-validation.png)
+
+Personalize themes, light/dark mode, canvas options, and workspace preferences.
+
+![Settings workspace with theme families and editor preferences](assets/flowcraft-settings.png)
 
 ## AI Flow Assistant
 
@@ -62,6 +78,9 @@ Current capabilities:
 - Reusable components from selected elements.
 - Live preview and schema checks.
 - React component export with `$flow.name` value resolution and flow event hooks.
+- Source-owned React page/component imports, managed builds, and auto-build.
+- Page transitions and element animation settings with preview support.
+- Action cards, CAPTCHA, selectable tables, project fonts, and input interaction styling.
 
 ## Technology
 

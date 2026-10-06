@@ -6,7 +6,7 @@ This public repository is intentionally limited.
 
 - Product overview.
 - Public feature summary.
-- Screenshots hosted on GitHub.
+- Five current application screenshots stored in `assets/` and rendered by the README.
 - Creator and ownership information.
 - Safe .NET metadata project for language classification.
 
@@ -20,6 +20,10 @@ This public repository is intentionally limited.
 - Private test data.
 - Customer-specific integrations.
 - Internal AI prompt implementation details beyond public capability descriptions.
+
+Screenshots use a synthetic sample flow. They show the application's interface
+without publishing customer projects or machine-specific file paths. Example
+flow files are not included in this public repository.
 
 ## Product Areas Described Publicly
 
